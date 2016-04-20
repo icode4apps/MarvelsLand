@@ -1,0 +1,507 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BEAC658A1CC7C24800959EAA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEAC65891CC7C24800959EAA /* AppDelegate.swift */; };
+		BEAC658C1CC7C24800959EAA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEAC658B1CC7C24800959EAA /* ViewController.swift */; };
+		BEAC658F1CC7C24800959EAA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BEAC658D1CC7C24800959EAA /* Main.storyboard */; };
+		BEAC65911CC7C24800959EAA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BEAC65901CC7C24800959EAA /* Assets.xcassets */; };
+		BEAC65941CC7C24800959EAA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BEAC65921CC7C24800959EAA /* LaunchScreen.storyboard */; };
+		BEAC659F1CC7C24800959EAA /* MarvelsLandTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEAC659E1CC7C24800959EAA /* MarvelsLandTests.swift */; };
+		BEAC65AA1CC7C24800959EAA /* MarvelsLandUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEAC65A91CC7C24800959EAA /* MarvelsLandUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BEAC659B1CC7C24800959EAA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BEAC657E1CC7C24800959EAA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BEAC65851CC7C24800959EAA;
+			remoteInfo = MarvelsLand;
+		};
+		BEAC65A61CC7C24800959EAA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BEAC657E1CC7C24800959EAA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BEAC65851CC7C24800959EAA;
+			remoteInfo = MarvelsLand;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BEAC65861CC7C24800959EAA /* MarvelsLand.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MarvelsLand.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BEAC65891CC7C24800959EAA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BEAC658B1CC7C24800959EAA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BEAC658E1CC7C24800959EAA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BEAC65901CC7C24800959EAA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BEAC65931CC7C24800959EAA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BEAC65951CC7C24800959EAA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BEAC659A1CC7C24800959EAA /* MarvelsLandTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MarvelsLandTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BEAC659E1CC7C24800959EAA /* MarvelsLandTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarvelsLandTests.swift; sourceTree = "<group>"; };
+		BEAC65A01CC7C24800959EAA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BEAC65A51CC7C24800959EAA /* MarvelsLandUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MarvelsLandUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BEAC65A91CC7C24800959EAA /* MarvelsLandUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarvelsLandUITests.swift; sourceTree = "<group>"; };
+		BEAC65AB1CC7C24800959EAA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BEAC65831CC7C24800959EAA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BEAC65971CC7C24800959EAA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BEAC65A21CC7C24800959EAA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BEAC657D1CC7C24800959EAA = {
+			isa = PBXGroup;
+			children = (
+				BEAC65881CC7C24800959EAA /* MarvelsLand */,
+				BEAC659D1CC7C24800959EAA /* MarvelsLandTests */,
+				BEAC65A81CC7C24800959EAA /* MarvelsLandUITests */,
+				BEAC65871CC7C24800959EAA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BEAC65871CC7C24800959EAA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BEAC65861CC7C24800959EAA /* MarvelsLand.app */,
+				BEAC659A1CC7C24800959EAA /* MarvelsLandTests.xctest */,
+				BEAC65A51CC7C24800959EAA /* MarvelsLandUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BEAC65881CC7C24800959EAA /* MarvelsLand */ = {
+			isa = PBXGroup;
+			children = (
+				BEAC65891CC7C24800959EAA /* AppDelegate.swift */,
+				BEAC658B1CC7C24800959EAA /* ViewController.swift */,
+				BEAC658D1CC7C24800959EAA /* Main.storyboard */,
+				BEAC65901CC7C24800959EAA /* Assets.xcassets */,
+				BEAC65921CC7C24800959EAA /* LaunchScreen.storyboard */,
+				BEAC65951CC7C24800959EAA /* Info.plist */,
+			);
+			path = MarvelsLand;
+			sourceTree = "<group>";
+		};
+		BEAC659D1CC7C24800959EAA /* MarvelsLandTests */ = {
+			isa = PBXGroup;
+			children = (
+				BEAC659E1CC7C24800959EAA /* MarvelsLandTests.swift */,
+				BEAC65A01CC7C24800959EAA /* Info.plist */,
+			);
+			path = MarvelsLandTests;
+			sourceTree = "<group>";
+		};
+		BEAC65A81CC7C24800959EAA /* MarvelsLandUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BEAC65A91CC7C24800959EAA /* MarvelsLandUITests.swift */,
+				BEAC65AB1CC7C24800959EAA /* Info.plist */,
+			);
+			path = MarvelsLandUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BEAC65851CC7C24800959EAA /* MarvelsLand */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BEAC65AE1CC7C24800959EAA /* Build configuration list for PBXNativeTarget "MarvelsLand" */;
+			buildPhases = (
+				BEAC65821CC7C24800959EAA /* Sources */,
+				BEAC65831CC7C24800959EAA /* Frameworks */,
+				BEAC65841CC7C24800959EAA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MarvelsLand;
+			productName = MarvelsLand;
+			productReference = BEAC65861CC7C24800959EAA /* MarvelsLand.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BEAC65991CC7C24800959EAA /* MarvelsLandTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BEAC65B11CC7C24800959EAA /* Build configuration list for PBXNativeTarget "MarvelsLandTests" */;
+			buildPhases = (
+				BEAC65961CC7C24800959EAA /* Sources */,
+				BEAC65971CC7C24800959EAA /* Frameworks */,
+				BEAC65981CC7C24800959EAA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BEAC659C1CC7C24800959EAA /* PBXTargetDependency */,
+			);
+			name = MarvelsLandTests;
+			productName = MarvelsLandTests;
+			productReference = BEAC659A1CC7C24800959EAA /* MarvelsLandTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BEAC65A41CC7C24800959EAA /* MarvelsLandUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BEAC65B41CC7C24800959EAA /* Build configuration list for PBXNativeTarget "MarvelsLandUITests" */;
+			buildPhases = (
+				BEAC65A11CC7C24800959EAA /* Sources */,
+				BEAC65A21CC7C24800959EAA /* Frameworks */,
+				BEAC65A31CC7C24800959EAA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BEAC65A71CC7C24800959EAA /* PBXTargetDependency */,
+			);
+			name = MarvelsLandUITests;
+			productName = MarvelsLandUITests;
+			productReference = BEAC65A51CC7C24800959EAA /* MarvelsLandUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BEAC657E1CC7C24800959EAA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Joao Batista Rocha Jr.";
+				TargetAttributes = {
+					BEAC65851CC7C24800959EAA = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					BEAC65991CC7C24800959EAA = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = BEAC65851CC7C24800959EAA;
+					};
+					BEAC65A41CC7C24800959EAA = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = BEAC65851CC7C24800959EAA;
+					};
+				};
+			};
+			buildConfigurationList = BEAC65811CC7C24800959EAA /* Build configuration list for PBXProject "MarvelsLand" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BEAC657D1CC7C24800959EAA;
+			productRefGroup = BEAC65871CC7C24800959EAA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BEAC65851CC7C24800959EAA /* MarvelsLand */,
+				BEAC65991CC7C24800959EAA /* MarvelsLandTests */,
+				BEAC65A41CC7C24800959EAA /* MarvelsLandUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BEAC65841CC7C24800959EAA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BEAC65941CC7C24800959EAA /* LaunchScreen.storyboard in Resources */,
+				BEAC65911CC7C24800959EAA /* Assets.xcassets in Resources */,
+				BEAC658F1CC7C24800959EAA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BEAC65981CC7C24800959EAA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BEAC65A31CC7C24800959EAA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BEAC65821CC7C24800959EAA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BEAC658C1CC7C24800959EAA /* ViewController.swift in Sources */,
+				BEAC658A1CC7C24800959EAA /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BEAC65961CC7C24800959EAA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BEAC659F1CC7C24800959EAA /* MarvelsLandTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BEAC65A11CC7C24800959EAA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BEAC65AA1CC7C24800959EAA /* MarvelsLandUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BEAC659C1CC7C24800959EAA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BEAC65851CC7C24800959EAA /* MarvelsLand */;
+			targetProxy = BEAC659B1CC7C24800959EAA /* PBXContainerItemProxy */;
+		};
+		BEAC65A71CC7C24800959EAA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BEAC65851CC7C24800959EAA /* MarvelsLand */;
+			targetProxy = BEAC65A61CC7C24800959EAA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BEAC658D1CC7C24800959EAA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BEAC658E1CC7C24800959EAA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BEAC65921CC7C24800959EAA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BEAC65931CC7C24800959EAA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BEAC65AC1CC7C24800959EAA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BEAC65AD1CC7C24800959EAA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BEAC65AF1CC7C24800959EAA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MarvelsLand/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.icodendesign.MarvelsLand;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BEAC65B01CC7C24800959EAA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MarvelsLand/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.icodendesign.MarvelsLand;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		BEAC65B21CC7C24800959EAA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MarvelsLandTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.icodendesign.MarvelsLandTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MarvelsLand.app/MarvelsLand";
+			};
+			name = Debug;
+		};
+		BEAC65B31CC7C24800959EAA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MarvelsLandTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.icodendesign.MarvelsLandTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MarvelsLand.app/MarvelsLand";
+			};
+			name = Release;
+		};
+		BEAC65B51CC7C24800959EAA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MarvelsLandUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.icodendesign.MarvelsLandUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MarvelsLand;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		BEAC65B61CC7C24800959EAA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MarvelsLandUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.icodendesign.MarvelsLandUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MarvelsLand;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BEAC65811CC7C24800959EAA /* Build configuration list for PBXProject "MarvelsLand" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BEAC65AC1CC7C24800959EAA /* Debug */,
+				BEAC65AD1CC7C24800959EAA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BEAC65AE1CC7C24800959EAA /* Build configuration list for PBXNativeTarget "MarvelsLand" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BEAC65AF1CC7C24800959EAA /* Debug */,
+				BEAC65B01CC7C24800959EAA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BEAC65B11CC7C24800959EAA /* Build configuration list for PBXNativeTarget "MarvelsLandTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BEAC65B21CC7C24800959EAA /* Debug */,
+				BEAC65B31CC7C24800959EAA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BEAC65B41CC7C24800959EAA /* Build configuration list for PBXNativeTarget "MarvelsLandUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BEAC65B51CC7C24800959EAA /* Debug */,
+				BEAC65B61CC7C24800959EAA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BEAC657E1CC7C24800959EAA /* Project object */;
+}
