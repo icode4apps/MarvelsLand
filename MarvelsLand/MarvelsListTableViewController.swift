@@ -91,8 +91,8 @@ class MarvelsListTableViewController: UITableViewController, UISearchBarDelegate
         
         let scriptUrl = "http://gateway.marvel.com:80/v1/public/characters?"
         let ts = NSDate().timeIntervalSince1970.description
-        let privateKey = "7b42232796bdfafde0c44e76455f4f19911ccae6"
-        let publicKey = "ea8ea9c841d37eadb9ae82c9c7a792f8"
+        let privateKey = "MARVEL API PRIVATE KEY"
+        let publicKey = "MARVEL API PUBLIC KEY"
         let hash = "\(ts)\(privateKey)\(publicKey)".md5()
         
 
